@@ -1,6 +1,5 @@
 #!/bin/sh
-
-
+# This script is called finder.sh and is located in the finder-app directory.
 #Accepts the following runtime arguments:
 # the first argument is a path to a directory on the filesystem, referred to below as filesdir; 
 filesdir=$1
