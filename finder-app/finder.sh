@@ -9,6 +9,7 @@ filesdir=$1
 # referred to below as searchstr
 searchstr=$2
 
+
 # Check if both arguments are provided
 if [ $# -lt 2 ]; then
     echo "Error: Missing arguments"
