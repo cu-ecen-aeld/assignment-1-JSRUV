@@ -7,6 +7,7 @@ writefile=$1
 # the second argument is a text string which will be written to a file, referred to below as text
 writestr=$2
 
+
 # Check if both arguments are provided
 if [ $# -lt 2 ]; then
 
