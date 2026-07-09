@@ -4,8 +4,6 @@
 # Accepts the following runtime arguments:
 # the first argument is a path to a directory on the filesystem, referred to below as files
 writefile=$1
-
-
 # the second argument is a text string which will be written to a file, referred to below as text
 writestr=$2
 
