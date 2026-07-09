@@ -1,4 +1,5 @@
 #!/bin/sh
+# Jeremiah Ruvalcaba
 # This script is called writer.sh and is located in the finder-app directory.
 # Accepts the following runtime arguments:
 # the first argument is a path to a directory on the filesystem, referred to below as files
