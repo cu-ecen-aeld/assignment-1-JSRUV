@@ -15,6 +15,13 @@ jobs:
       - name: Checkout submodules
         run: git submodule update --init --recursive
 
+      - name: Debug submodule state
+        run: |
+          echo "Built commit: $(git rev-parse HEAD)"
+          cat .gitmodules || echo "NO .gitmodules IN CI WORKSPACE"
+          git submodule status
+          ls -la assignment-autotest/
+
       - name: Make unit test executable
         run: chmod +x ./unit-test.sh || true
 
